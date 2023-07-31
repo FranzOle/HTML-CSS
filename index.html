@@ -5,7 +5,7 @@
     <meta name="description" content="Web sekolah XI RPL">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web sekolah smk revit</title>
+    <title>web sekolah smk revit</title>    
 </head>
 <body>
     <!-- ini adalah komentar html-->
@@ -28,54 +28,56 @@
         <thead>
             <tr>
                 <th>Nomor</th>
-                <th>Pelajaran</th>
-                <th>Keterangan</th>
+                <th colspan="2">Pelajaran</th>
+                
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>Pemograman Web</td>
+                <td rowspan ="3">Pemograman Web</td>
                 <td>HTML</td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>Basis Data</td>
-                <td>My SQL</td>
+                
+                <td>HTML</td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>Pemrograman Berbasis Objek</td>
-                <td>Java</td>
+                
+                <td>HTML</td>
             </tr>
         </tbody>
     </table>
 <br>
-    <!--dengan rowspan dan colspan-->
-    <table border="1px">
-        <thead>
-            <tr>
-                <th>Nomor</th>
-                <th colspan="2">Pelajaran</th>
-         
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td rowspan="4">Pemograman RPL</td>
-                <td>HTML</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>My SQL</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                 <td>Java</td>
-            </tr>
-        </tbody>
-    </table>
-
+<!--Aa-->
+<form action="" method="">
+    <label for="Nama">Nama anda : </label>
+    <input type="text" placeholder="Nama anda : ">
+    <br>
+    <label for="Rumah">sekolah :</label>
+    <input type="text" name="" id="">
+    
+    <select name="Tipe" id="tipe-sekolah">
+        <option value="SMK">
+            SMK
+        </option>
+        <option value="SMA">SMA</option>
+    </select>
+    <br>
+    <label for="jurusan">Jurusan : </label>
+    <select name="jurusan" id="jurusan">
+        <option value="IPA">IPA</option>
+        <option value="IPS">IPS</option>
+        <option value="RPL">RPL</option>
+        <option value="TKJ">TKJ</option>
+        <option value="AK">AK</option>
+    </select>
+    <br></form>
+    <input type="submit">
+</form>
+   
+    
 </body>
 </html>
