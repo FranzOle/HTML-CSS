@@ -1,3 +1,4 @@
+
 body{
     background-color: green;
  
@@ -6,6 +7,25 @@ body{
 img{
     width: 500px;
     height: auto;
+}
+div{
+    border: 2px solid white;
+    margin: 100px 50px 0px 100px;
+
+    padding-top: 20px;
+}
+
+nav{
+    border:3px solid black;
+}
+
+table{
+    margin-left: 400px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
 }
 /*selector class*/
 .batas{
@@ -16,18 +36,30 @@ img{
 }
 .warna{
     margin-top: 50px;
-    
+}
+.bodili{
+    text-align: center;
 }
 .author{
     margin-top:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
+    position: sticky;
+    
 }
+.border{
+    border: 5px solid white;
+}
+
 /*selector id*/
 #bekground{
     background-color: white;
+    position: sticky;
     padding: 20px;
 }
 #tipe-sekolah{
-    background-color: blue;
+    background-color: wheat;
 }	
-
+#jurusan{
+    background-color: wheat;
+}

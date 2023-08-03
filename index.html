@@ -13,7 +13,7 @@
     
     <!-- ini adalah komentar html-->
     <!--inline css-->
-    <div>
+    <div class="bodili">
     <nav class="batas warna">
     <img src="img/logo-smkrevit.18de00af.png" alt="logo" height="100px" width="450">
      <ul id="fonkeler">
@@ -60,7 +60,7 @@
     </section>
 <br>
 <hr>
-<section>
+<!--<section>
     <b style="color: aliceblue; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Saksikan video kami</b><br>
  <video src="video/2. Belajar OOP (kelas dan atribut).mp4" height="250px" width="300px" controls></video>
 </section>
@@ -69,21 +69,24 @@
 </section>
 <section>
     <canvas height="250px" width="300px"></canvas>
-</section>
+</section>-->
 <hr>       
 <footer>
-    <h2>Form Pendaftaran</h2>
-    <form action="" method="">
+    <form action="" method="" id="">
+        <h2>Form Pendaftaran</h2>
         <label for="Nama">Nama anda : </label>
         <input type="text" placeholder="Nama anda : ">
         <br>
-        <label for="Rumah">sekolah :</label>
-        <input type="text" name="" id="">
-        
+        <label for="Rumah">Sekolah :</label>
         <select name="Tipe" id="tipe-sekolah">
-            <option value="SMK">SMK</option>
-            <option value="SMA">SMA</option>
+            <option value="SMK" style="color: aliceblue;">SMK</option>
+            <option value="SMA" style="color: aliceblue;">SMA</option>
         </select>
+        <input type="text" name="" id="">
+        <br>
+        <label for="Email">Email : </label>
+        <input type="email" placeholder="Email :">
+        
         <br>
         <label for="jurusan">Jurusan : </label>
         <select name="jurusan" id="jurusan">
@@ -100,7 +103,7 @@
 
 </div>
 <footer class="author border">
-<hr>
+
    <p> Made by : Lionel Jevon C.P / XI RPL</p>
    <a href="pages/kontak.html"><p>Kontak Kami</p></a>
 </footer>
