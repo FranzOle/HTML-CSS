@@ -48,7 +48,15 @@ li:hover{
 h2:hover{
     color: green;
 }
-
+.card:target{
+    background-color: green;
+    color: white;
+}
+p::first-letter{
+    color: green;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 footer:hover{
    background-color: white;
@@ -81,8 +89,6 @@ footer{
     padding-bottom: 5px;
     height: 60px;
 }
-
-
 
 footer h2{
    text-align: center;
